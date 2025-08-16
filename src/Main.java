@@ -12,8 +12,8 @@ import java.net.URL;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        var usuario = "1";
-        var senha = "1";
+        var usuario = "vinicius";
+        var senha = "1234";
 
         //Criação da janela
         JFrame janela = new JFrame();
