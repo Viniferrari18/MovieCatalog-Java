@@ -1,49 +1,41 @@
-MovieCatalog-Java
+# MovieCatalog-Java
 
-Aplicação em Java Swing que consome a API do The Movie Database (TMDb) para exibir filmes por gênero, simulando um catálogo interativo com interface gráfica.
+Aplicação de catálogo de filmes desenvolvida em Java Swing, consumindo a API do The Movie Database (TMDb), com foco em Programação Orientada a Objetos (POO).
 
-📌 Descrição
+## 📌 Descrição
 
-Este projeto permite ao usuário:
+Este projeto simula um catálogo de filmes, onde o usuário pode:
 
-Fazer login na aplicação
+-Fazer login na aplicação
+-Selecionar filmes por gênero
+-Visualizar pôsteres e títulos dos filmes
+-Navegar por uma interface gráfica interativa
 
-Visualizar filmes categorizados por gênero
+O código foi estruturado com foco no uso correto de POO, incluindo encapsulamento, composição e boas práticas de programação em Java.
 
-Navegar pelos filmes com exibição de pôster e título
+---
 
-Atualizar a lista de filmes dinamicamente através de chamadas à API TMDb
+## 🧩 Funcionalidades
 
-O código é estruturado com foco em Programação Orientada a Objetos (POO), incluindo encapsulamento, composição e separação de responsabilidades por classes.
+- Login simples de usuário
+- Painel lateral com botões de gêneros
+- Exibição de filmes em grid com pôster e título
+- Atualização dinâmica de filmes usando chamadas à API TMDb
+- Tratamento de exceções em caso de falha na requisição
 
-🧩 Funcionalidades
+---
+## 🛠️ Tecnologias Utilizadas
 
-Login simples de usuário
+- Java 17+ (compatível com versões anteriores)
+- IntelliJ IDEA (projeto criado e estruturado nele)
+- Swing para interface gráfica
+- Gson para manipulação de JSON
+- Consumo da API TMDb para obter filmes por gênero
+- Padrões de POO: encapsulamento, composição, separação por classes
+- 
+---
+## 📂 Estrutura do Projeto
 
-Painel lateral com botões de gêneros
-
-Painel central com grid de filmes, exibindo pôster e título
-
-Atualização dinâmica usando SwingWorker para carregar filmes da API
-
-Tratamento de exceções em chamadas à API
-
-🛠️ Tecnologias Utilizadas
-
-Java 17+ (compatível com versões anteriores)
-
-Swing para interface gráfica
-
-Gson para manipulação de JSON
-
-API TMDb para dados de filmes
-
-IntelliJ IDEA (ambiente recomendado)
-
-📂 Estrutura do Projeto
-
-Main.java – classe principal, responsável pelo login e interface gráfica
-
-MovieBrowser.java – classe que realiza chamadas à API TMDb e retorna os filmes por gênero
-
-Recursos externos: imagens de pôster carregadas diretamente da API TMDb
+- Main.java – classe principal, responsável pelo login e interface gráfica
+- MovieBrowser.java – classe que realiza chamadas à API e retorna filmes por gênero
+- Recursos externos: pôsteres dos filmes carregados diretamente da API TMDb
